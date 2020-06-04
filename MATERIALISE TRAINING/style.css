@@ -1,0 +1,26 @@
+#landing{
+    height: 100vh;
+    background-image: url('imgs/img1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+#mainText{
+    margin-top: 20vh;
+    /* font-size: 577%; */
+}
+#sub-headers{
+WIDTH: 105%;
+/* MARGIN-LEFT: 4EM; */
+}
+#btn{
+    width: 15em;
+    border-radius: 2em ;
+    margin-top: 6EM;
+}
+
+#values{
+    background-color:#0b5385;
+}
