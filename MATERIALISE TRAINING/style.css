@@ -1,6 +1,6 @@
 #landing{
     height: 100vh;
-    background-image: url('/MATERIALISE TRAINING/imgs/img1.png');
+    background-image: url('/MATERIALISE TRAINING/imgs/BG.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -9,20 +9,37 @@
 }
 #mainText{
     margin-top: 20vh;
-    /* font-size: 577%; */
+    font-weight: bolder;
+    letter-spacing: 17PX
 }
 #sub-headers{
-WIDTH: 105%;
-/* MARGIN-LEFT: 4EM; */
+/* WIDTH: 116%; */
 }
 #btn{
     width: 15em;
     border-radius: 2em ;
     margin-top: 6EM;
 }
+#nav-btn{
+    border-radius: 2em ;
+    
+}
+#text{
+  margin-top: 3EM;
+  margin-bottom: 3EM;
+  line-height: 2.5;
+}
 
 #values{
     background-color:#0b5385;
+    padding-bottom: 2em;
+}
+#values-header{
+  margin-top: 1EM;
+  margin-bottom: 1EM;
+}
+#value{
+    text-decoration: underline;
 }
 
 #nxt-events{
