@@ -24,10 +24,21 @@
     border-radius: 2em ;
     
 }
+#pre-inscription{
+  position: relative;
+}
 #text{
   margin-top: 3EM;
   margin-bottom: 3EM;
   line-height: 2.5;
+}
+#txt-btn{
+  position: absolute;
+  width: 15em;
+  border-radius: 2em ;
+  transform: rotate(90deg);
+  bottom: 40%;
+  right: -5%;
 }
 
 #values{
@@ -102,5 +113,18 @@
   .fadeIn {
     top: 80%;
   }
+
+  #footer{
+    margin-top: -20px;
+  }
   
- 
+  @media only screen and (max-width: 990px){
+    #txt-btn{
+  position: static;
+  width: 15em;
+  border-radius: 2em ;
+  transform: none;
+  margin-bottom: 3em;
+  
+    }
+  }
