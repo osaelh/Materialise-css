@@ -167,7 +167,16 @@
     height: 20em;
     width: 24em;
   }
+  #social-media{
+    height: 20em;
+    width: 24em;
+  }
   
+  #footer-copyright{
+    background-color: #0b5385;
+    height: 22EM;
+    margin-bottom: -20PX;
+  }
 
   @media only screen and (max-width: 990px){
     #txt-btn{
@@ -177,5 +186,12 @@
   transform: none;
   margin-bottom: 3em;
   
+    }
+
+    #location{
+      width: 100%;
+    }
+    #social-media{
+      width: 100%;
     }
   }
