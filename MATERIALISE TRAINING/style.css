@@ -114,34 +114,13 @@
     top: 80%;
   }
 
-  /* #footer{
+
+  #footer{
     margin-top: -20px;
-    background-color: #0b5385;
-  } */
-
-  /* #leftside-footer{
-   
-    height: 20vh;
-    width: 50%;
-    background-color: #0b5385;
-    opacity: 0.3;
   }
-
-  #leftside-footer::after {
-
-    content: "";
-     background-image: url('/MATERIALISE TRAINING/imgs/BG\ copie\ 2.png');
-    opacity: 0.5;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;   
-  } */
   #leftside-footer {
-    width: 50%;
-    height: 30vh;
+    /* width: 50%; */
+    height: 20em;
     background-color: #0b5385;
     opacity: 0.8;
     display: block;
@@ -163,22 +142,33 @@
   #footer-logo{
     width: 15%;
     margin-left: 6em;
-    margin-top: 1.5em;
+    margin-top: 4em;
     margin-right: 5em;
   }
 
   #contact{
-    margin-top: 1.5em;
+    margin-top: 4em;
   }
 
   #contact-li{
     margin-bottom: .5em;
   }
 
-  /* #footer-logo{
-    z-index: 10 
+
+  #rightside-footer {
+    height: 20em;
+    background-color: #0b5385;
+    opacity: 0.8;
+    display: block;
+    position: relative;
   }
-   */
+
+  #location{
+    height: 20em;
+    width: 24em;
+  }
+  
+
   @media only screen and (max-width: 990px){
     #txt-btn{
   position: static;
