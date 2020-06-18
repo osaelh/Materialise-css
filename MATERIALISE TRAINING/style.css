@@ -1,6 +1,6 @@
 #landing{
     height: 100vh;
-    background-image: url('/MATERIALISE TRAINING/imgs/BG.png');
+    background-image: url('/MATERIALISE TRAINING/imgs/header-backgroud.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -129,7 +129,7 @@
   
   #leftside-footer::after {
     content: "";
-    background: url('/MATERIALISE TRAINING/imgs/BG\ copie\ 2.png');
+    background: url('/MATERIALISE TRAINING/imgs/BG-2.png');
     opacity: 0.5;
     top: 0;
     left: 0;
